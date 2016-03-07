@@ -13,7 +13,7 @@ NOTES:
 #include <stdio.h>
 #include<string.h>
 char KthIndexFromEnd(char *str, int K) {
-	int i = 0, j = -1;
+	int i = 0;
 	if (str == '\0' || str == "" || K<0)
 		return '\0';
 	for (i = 0; str[i]; i++);

@@ -21,7 +21,7 @@ NOTES: Don't create new string.
 
 
 void number_to_str(float number, char *str,int afterdecimal){
-	int i = 0, toInt, temp, a[12], j = 0, p;
+	int i = 0, toInt, a[12], j = 0, p;
 	for (i = 0; i < afterdecimal; i++)
 		number = number * 10;
 	toInt = number;
